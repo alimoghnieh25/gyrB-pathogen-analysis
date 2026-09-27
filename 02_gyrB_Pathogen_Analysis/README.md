@@ -76,7 +76,19 @@ data/ Input sequences and alignment
 
 results/ Output files (conservation scores, distance matrix, trees, figure)
 
+## How to Run
 
+Run scripts from the project root directory, not from inside `scripts/` — the file paths inside each script are relative to the root:
+
+```bash
+python scripts/02_GyrB_Protein_Analysis.py
+python scripts/03_Verify_GyrB_Sequences.py
+python scripts/05_Conserved_GyrB_Positions.py
+python scripts/06_GyrB_Conservation_Percentage.py
+python scripts/07_GyrB_Distance_Matrix.py
+python scripts/08_GyrB_Phylogenetic_Tree.py
+python scripts/09_GyrB_Plot_Tree.py
+```
 
 
 
